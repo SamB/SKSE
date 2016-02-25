@@ -21,6 +21,9 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+# These are SKSE-specific
+Debug VC9/
+Release VC9/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -77,6 +80,9 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+# Experimental browsing database engine (SQLite-based)
+*.VC.db
+*.VC.opendb
 
 # Visual Studio profiler
 *.psess
